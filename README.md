@@ -11,7 +11,9 @@ Example 1:
 ![image](https://user-images.githubusercontent.com/59828170/212534983-6ce53412-492f-4046-8648-7c4f29b0b702.png)
 
 Input: n = 4
+
 Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+
 Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above
 
 Problem taken from page : https://leetcode.com/problems/n-queens/
