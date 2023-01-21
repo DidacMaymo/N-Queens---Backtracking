@@ -6,9 +6,9 @@ class Solution:
         negDiag = set()  # (r-c)
 
         res = []
-        #We create a board of n + n :
+        #We create a board of n * n :
         board = [["."] * n for i in range(n)]
-
+        
         def backtrack(r):  # We go row per row
             if r == n:  # true when we are completed
                 copy = ["".join(row) for row in board]
