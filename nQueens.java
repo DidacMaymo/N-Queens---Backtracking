@@ -39,6 +39,7 @@ class Solution {
         String copy = String.join("", row);
         result.add(copy);
       }
+      return;
     }
 
     for (int c = 0; c < n; c++) {
